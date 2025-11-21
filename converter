@@ -1,0 +1,103 @@
+#!/bin/bash
+
+# need software: opus-tools sox asterisk-codec_opus asterisk-g729 asterisk
+
+sourc=sound-raw-ladislav
+dest=asterisk-core-sounds-cs-ladislav
+
+if [ -d ${dest} ];then rm -rf ${dest};fi
+
+function convert_wav_wav {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sox $1 -b 16 -c 1 -t wav $2/$3.wav rate -I 8000
+}
+
+function convert_wav_g722 {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	ffmpeg -i $1 -ar 16000 -acodec g722 $2/$3.g722
+}
+
+function convert_wav_ulaw {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sox -V $1 -r 8000 -c 1 -t ul $2/$3.ulaw
+}
+
+function convert_wav_alaw {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sox -V $1 -r 8000 -c 1 -t al $2/$3.alaw
+}
+
+function convert_wav_gsm {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sox -V $1 -r 8000 -c 1 -t gsm $2/$3.gsm
+}
+
+sudo chown -R asterisk:asterisk /var/lib/asterisk/sounds/
+function convert_wav_g729 {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sudo sox $1 -e signed-integer -b 16 -c 1 -r 8k -t raw /var/lib/asterisk/sounds/$3.slin
+	sudo asterisk -rx "file convert $3.slin $3.g729"
+	cp /var/lib/asterisk/sounds/$3.g729 $2/$3.g729
+	sudo rm /var/lib/asterisk/sounds/$3.slin
+	sudo rm /var/lib/asterisk/sounds/$3.g729
+}
+
+function convert_wav_siren14 {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sudo sox -v .7 $1 -r 16000 -c 1 -t sw /var/lib/asterisk/sounds/$3.sln16
+	sudo asterisk -rx "file convert $3.sln16 $3.siren14"
+	cp /var/lib/asterisk/sounds/$3.siren14 $2/$3.siren14
+	sudo rm /var/lib/asterisk/sounds/$3.sln16
+	sudo rm /var/lib/asterisk/sounds/$3.siren14
+}
+
+function convert_wav_siren7 {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sudo sox -v .7 $1 -r 16000 -c 1 -t raw -b 16 /var/lib/asterisk/sounds/$3.sln16
+	sudo asterisk -rx "file convert $3.sln16 $3.siren7"
+	cp /var/lib/asterisk/sounds/$3.siren7 $2/$3.siren7
+	sudo rm /var/lib/asterisk/sounds/$3.sln16
+	sudo rm /var/lib/asterisk/sounds/$3.siren7
+}
+
+function convert_wav_opus {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sox $1 -r 8000 $2/$3_8k.wav
+	opusenc $2/$3_8k.wav $2/$3.opus
+	rm $2/$3_8k.wav
+}
+
+function convert_wav_sln16 {
+	if [ ! -d $2 ];then mkdir -p $2;fi
+	sox $1 -t raw -r 16000 -c 1 $2/$3.sln16
+}
+
+function convert_wav {
+	for file in ${sourc}$1/*.wav; do
+		if [ -f $file ];then
+			basen=$(basename "$file" | cut -d"." -f1)
+			convert_wav_wav "$file" "${dest}$1" "${basen}"
+			convert_wav_g722 "$file" "${dest}$1" "${basen}"
+			convert_wav_ulaw "$file" "${dest}$1" "${basen}"
+			convert_wav_alaw "$file" "${dest}$1" "${basen}"
+			convert_wav_gsm "$file" "${dest}$1" "${basen}"
+			convert_wav_g729 "$file" "${dest}$1" "${basen}"
+			convert_wav_siren14 "$file" "${dest}$1" "${basen}"
+			convert_wav_siren7 "$file" "${dest}$1" "${basen}"
+			convert_wav_opus "$file" "${dest}$1" "${basen}"
+			convert_wav_sln16 "$file" "${dest}$1" "${basen}"
+		fi
+	done
+}
+
+function convert {
+	convert_wav 
+	convert_wav /dictate
+	convert_wav /digits
+	convert_wav /followme
+	convert_wav /letters
+	convert_wav /phonetic
+	convert_wav /silence
+}
+
+convert

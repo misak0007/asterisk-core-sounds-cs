@@ -1,0 +1,590 @@
+; Core Asterisk Sounds in Czech
+; https://www.narakeet.com/app/text-to-audio
+; voice: Ladislav
+
+activated: Aktivováno.
+added: Přidáno.
+agent-alreadyon: Tento agent je již přihlášen. Zadejte prosím své číslo a poté křížek.
+agent-incorrect: Nesprávné přihlášení. Zadejte prosím své číslo a poté křížek.
+agent-loggedoff: Agent byl úspěšně odhlášen.
+agent-loginok: Agent byl úspěšně přihlášen.
+agent-newlocation: Zadejte prosím novou klapku a poté křížek.
+agent-pass: Zadejte prosím své heslo a poté stiskněte křížek.
+agent-user: Přihlášení agenta. Zadejte prosím své číslo a poté křížek.
+all-circuits-busy-now: Všechny okruhy jsou nyní obsazené.
+ascending-2tone: [ascending tones]
+astcc-followed-by-the-pound-key: Následuje klávesa křížek.
+at-tone-time-exactly: Po zaznění tónu bude přesně ...
+auth-incorrect: Heslo je nesprávné. Zadejte prosím heslo a poté křížek.
+auth-thankyou: Děkuji.
+basic-pbx-ivr-main: Děkujeme, že jste nám zavolali. Pokud znáte konkrétní linku, můžete ji kdykoli vytočit. Chcete-li navázat prodejní partnerství, stiskněte jedna. Chcete-li hovořit se zástupcem zákazníků, stiskněte dvě. Pro účetnictví a další pohledávky stiskněte tři. Pro firemní adresář stiskněte čtyři. Pro operátora stiskněte nulu.
+beep: [this is a simple beep tone]
+beeperr: [this is an error beep tone]
+call-forwarding: Přesměrování hovorů.
+call-fwd-no-ans: Přesměrování hovoru při žádné odpovědi.
+call-fwd-on-busy: Přesměrování hovoru při obsazení.
+call-fwd-unconditional: Bezpodmínečné přesměrování hovoru.
+call-waiting: Čekající hovor.
+calling: Volání.
+cancelled: Zrušeno.
+cannot-complete-as-dialed: Váš hovor nelze dokončit tak, jak byl vytočen.
+check-number-dial-again: Zkontrolujte prosím číslo a vytočte ho znovu.
+conf-adminmenu-162: Stiskněte 1 pro ztlumení nebo zapnutí vlastního zvuku, 2 pro uzamčení nebo odemčení konference, 3 pro vyloučení posledního účastníka, 4 nebo 6 pro snížení nebo zvýšení hlasitosti konference, 5 pro prodloužení konference, 7 nebo 9 pro snížení nebo zvýšení vaší hlasitosti nebo 8 pro ukončení konference.
+conf-adminmenu-18: Stiskněte 1 pro ztlumení nebo zapnutí vlastního zvuku, 2 pro uzamčení nebo odemčení konference, 3 pro vyloučení posledního účastníka, 4 nebo 6 pro snížení nebo zvýšení hlasitosti konference, 5 pro prodloužení konference, 7 nebo 9 pro snížení nebo zvýšení vlastní hlasitosti nebo 8 pro zobrazení dalších možností.
+conf-adminmenu-menu8: Stisknutím tlačítka 1 zobrazíte seznam uživatelů, kteří jsou aktuálně v konferenci, stisknutím tlačítka 2 vyloučíte všechny uživatele, kteří nejsou administrátorem, stisknutím tlačítka 3 ztlumíte nebo zcela vypnete všechny uživatele, kteří nejsou administrátorem, stisknutím tlačítka 4 tuto konferenci nahrajete nebo stisknutím tlačítka 8 tuto nabídku opustíte a vrátíte se do konference.
+conf-adminmenu: Stiskněte 1 pro ztlumení nebo zapnutí vlastního zvuku, 2 pro uzamčení nebo odemčení konference, 3 pro vyloučení posledního účastníka, 4 nebo 6 pro snížení nebo zvýšení hlasitosti konference, 7 nebo 9 pro snížení nebo zvýšení vaší hlasitosti nebo 8 pro ukončení.
+conf-enteringno: Zadejte číslo konference
+conf-errormenu: Neplatná volba
+conf-extended: Konference byla prodloužena.
+conf-full: Tato konference je plná.
+conf-getchannel: Zadejte prosím číslo kanálu a poté křížek.
+conf-getconfno: Zadejte prosím číslo vaší konference a poté křížek.
+conf-getpin: Zadejte prosím PIN kód konference.
+conf-hasjoin: jste nyní na konferenci.
+conf-hasleft: opustili jste konferenci.
+conf-invalid: Toto není platné číslo konference. Zkuste to prosím znovu.
+conf-invalidpin: Tento PIN kód je pro tuto konferenci neplatný.
+conf-kicked: Byl jsi vyhozen z této konference
+conf-leaderhasleft: Vedoucí opustil konferenci.
+conf-locked: Tato konference je uzavřená!
+conf-lockednow: Konference je nyní uzavřená!
+conf-muted: Nyní Vás není slyšet.
+conf-noempty: Momentálně neexistují žádné prázdné konference.
+conf-nonextended: Konferenci nelze prodloužit.
+conf-now-muted: Konference je nyní ztlumená.
+conf-now-recording: Konference se nyní nahrává.
+conf-now-unmuted: Ztlumení konference je nyní obnoveno.
+conf-onlyone: Konference se v současné době účastní ještě jeden další účastník.
+conf-onlyperson: Momentálně jste v této konferenci jediný.
+conf-otherinparty: další účastníci konference
+conf-placeintoconf: Nyní budete zařazeni do konference.
+conf-roll-callcomplete: Přehrávání seznamu zúčastněných osob je dokončeno.
+conf-thereare: Nyní zde jsou
+conf-unlockednow: Konference je nyní odemčena
+conf-unmuted: Nyní jste slyšet
+conf-usermenu-162: Stiskněte prosím tlačítko 1 pro ztlumení nebo zapnutí vlastního zvuku, 4 nebo 6 pro snížení nebo zvýšení hlasitosti konference, 5 pro prodloužení konference, 7 nebo 9 pro snížení nebo zvýšení hlasitosti nebo 8 pro opuštění této nabídky a návrat do konference.
+conf-usermenu: Stiskněte prosím tlačítko 1 pro ztlumení nebo zapnutí vlastního zvuku, 4 nebo 6 pro snížení nebo zvýšení hlasitosti konference, 7 nebo 9 pro snížení nebo zvýšení hlasitosti vaší konference nebo 8 pro ukončení.
+conf-userswilljoin: Uživatelé budou připojeni do konference.
+conf-userwilljoin: Uživatel bude připojen do konference.
+conf-waitforleader: Konference bude zahájena ihned, jakmile se přihlásí její organizátor.
+confbridge-begin-glorious-a: Konference začne, až dorazí náš slavný vůdce
+confbridge-begin-glorious-b: Konference začne, až dorazí náš slavný vůdce
+confbridge-begin-glorious-c: Konference začne, až dorazí náš slavný vůdce
+confbridge-begin-leader: Konference začne po příjezdu vedoucího
+confbridge-binaural-off: 3D zvuk je zakázán
+confbridge-binaural-on: 3D zvuk je povolen
+confbridge-conf-begin: konference nyní začne
+confbridge-conf-end: konference skončila
+confbridge-dec-list-vol-in: Chcete-li snížit hlasitost zvuku ostatních účastníků...
+confbridge-dec-list-vol-out: ...pro snížení hlasitosti zvuku ostatních účastníků.
+confbridge-dec-talk-vol-in: Chcete-li snížit hlasitost svého hovoru pro ostatní účastníky...
+confbridge-dec-talk-vol-out: ... abyste snížili hlasitost svého mluvení k ostatním účastníkům.
+confbridge-has-joined: ...se připojil ke konferenci.
+confbridge-has-left: ...opustil konferenci.
+confbridge-inc-list-vol-in: Chcete-li zvýšit hlasitost zvuku ostatních účastníků...
+confbridge-inc-list-vol-out: ...zvýšit hlasitost zvuku ostatních účastníků.
+confbridge-inc-talk-vol-in: Chcete-li zvýšit hlasitost svého mluvení pro ostatní účastníky...
+confbridge-inc-talk-vol-out: ...zvýšit hlasitost vašeho mluvení pro ostatní účastníky.
+confbridge-invalid: Zadali jste neplatnou možnost.
+confbridge-join: <beep ascending>
+confbridge-leave-in: Abych opustil konferenci...
+confbridge-leave-out: ...opustit konferenci.
+confbridge-leave: <beep decending>
+confbridge-lock-extended: ...uzamknout nebo odemknout konferenci. Pokud je konference uzamčena, mohou se k ní připojit pouze administrátoři.
+confbridge-lock-in: Chcete-li konferenci uzamknout nebo odemknout...
+confbridge-lock-no-join: Konference je momentálně uzamčena a nelze se k ní připojit.
+confbridge-lock-out: ...uzamknout nebo odemknout konferenci.
+confbridge-locked: Konference je nyní uzamčena.
+confbridge-menu-exit-in: Chcete-li opustit menu...
+confbridge-menu-exit-out: ...pro opuštění nabídky.
+confbridge-mute-extended: ...ztlumit nebo zapnout zvuk. Pokud máte ztlumený zvuk, nemůžete posílat zvuk ostatním účastníkům. Zvuk od ostatních účastníků s vypnutým zvukem však budete i nadále slyšet.
+confbridge-mute-in: Chcete-li si ztlumit nebo zapnout zvuk...
+confbridge-mute-out: ...ztlumit nebo zapnout zvuk sami.
+confbridge-muted: Nyní máte vypnutý zvuk.
+confbridge-only-one: Konference se v současné době účastní ještě jeden další účastník.
+confbridge-only-participant: Momentálně jste jediným účastníkem konference.
+confbridge-participants: ...účastníci konference.
+confbridge-pin-bad: Zadali jste příliš mnoho neplatných osobních identifikačních čísel.
+confbridge-pin: Zadejte prosím své osobní identifikační číslo a poté křížek.
+confbridge-remove-last-in: Chcete-li odebrat účastníka, který se naposledy připojil ke konferenci...
+confbridge-remove-last-out: ...odebrat účastníka, který se ke konferenci připojil naposledy.
+confbridge-removed: Byli jste vyloučeni z konference.
+confbridge-rest-list-vol-in: Chcete-li obnovit hlasitost zvuku konference na výchozí úroveň...
+confbridge-rest-list-vol-out: ...obnovení hlasitosti zvuku konference na výchozí úroveň.
+confbridge-rest-talk-vol-in: Chcete-li obnovit hlasitost mluveného hovoru na výchozí úroveň...
+confbridge-rest-talk-vol-out: ...obnovení hlasitosti hovoru na výchozí úroveň.
+confbridge-there-are: V současné době existují...
+confbridge-unlocked: Konference je nyní odemčena.
+confbridge-unmuted: Už nemáte vypnutý zvuk.
+de-activated: Deaktivováno.
+demo-abouttotry: Chystám se pokusit o připojení Inter-Asterisk Exchange k demonstračnímu serveru umístěnému v Digiu. Aby to fungovalo, musíte být již připojeni k internetu. Chvíli prosím počkejte, než se pokusím o navázání připojení.
+demo-congrats: Gratulujeme. Úspěšně jste nainstalovali a spustili open source ústřednu Asterisk. Nainstalovali jste také sadu ukázkových zvuků a konfiguračních souborů, které by vám měly pomoci s prvním spuštěním. Stejně jako u běžné ústředny se v této demonstraci budete pohybovat vytáčením číslic. Pokud místo skutečného telefonu používáte ovladač konzolového kanálu, můžete k simulaci akcí standardního telefonu použít příkazy pro vytočení, přijetí hovoru a zavěšení.
+demo-echodone: Test ozvěny byl dokončen.
+demo-echotest: Chystáte se spustit test ozvěny. V tomto režimu se vám vše, co řeknete, zopakuje, jakmile bude přijato. Účelem tohoto testu je poskytnout vám zvukovou informaci o latenci mezi vámi a počítačem, na kterém je spuštěna aplikace pro test ozvěny. Test můžete ukončit zavěšením nebo stisknutím klávesy s křížkem.
+demo-enterkeywords: Zadejte prosím jedno nebo více klíčových slov oddělených hvězdičkou a poté stiskněte klávesu s křížkem.
+demo-instruct: Pokud byste se chtěli dozvědět více technických informací o Asterisku, vytočte nyní číslo 2. Pokud si chcete vyzkoušet možnosti Asterisku v oblasti VoIP, můžete vytočit číslo 500 a pokusit se o připojení Inter-Asterisk Exchange nebo IAX k demonstračnímu serveru v Digiumu. Aby tento test fungoval, musíte být připojeni k internetu a mít alespoň 28,8kilobitový modem. Pro spuštění echo testu vytočte číslo 600. Tento test je nejužitečnější, pokud jste se k tomuto serveru Asterisk připojili ze vzdáleného umístění. Ukázková konfigurace má také jednoho uživatele s klapkou 1234 a heslem 4242. Tento uživatel je nakonfigurován tak, aby při vytočení jeho klapky vytočil konzoli. Pokud vytočíte číslo 1234, můžete se pokusit konzoli zavolat. Pokud je konzole obsazená nebo nedostupná, budete mít možnost opustit hlasovou schránku. Chcete-li zkontrolovat hlasovou schránku uživatele, vytočte klapku 8500 a vstoupíte do systému hlasové schránky. Nakonec se můžete stisknutím klávesy s křížkem odpojit od ústředny.
+demo-moreinfo: Asterisk je open source plně funkční platforma pro ústředny a IVR, která běží na operačním systému Linux. Více informací naleznete na www.asterisk.org.
+demo-nogo: Obávám se, že se mi nepodařilo vytvořit připojení k demonstračnímu serveru Asterisk od Digiumu. V konzoli Asterisk můžete najít užitečné informace o ladění.
+demo-nomatch: Je mi líto, že pro tato klíčová slova nenašly žádné shody.
+demo-thanks: Na shledanou. Děkujeme, že jste vyzkoušeli open source ústřednu Asterisk.
+descending-2tone: [descending tones]
+dictate/both_help: Stisknutím tlačítka * přepnete do režimu pauzy, stisknutím tlačítka # zadáte nový název souboru s diktátem
+dictate/enter_filename: Zadejte číselný název souboru s diktátem následovaný znakem # nebo jen znakem # pro ukončení
+dictate/forhelp: stiskněte 0 pro nápovědu
+dictate/pause: pauza
+dictate/paused: pozastaveno
+dictate/play_help: Stisknutím tlačítka 1 přepnete do režimu nahrávání, stisknutím tlačítka 2 přepnete rychlé přehrávání, stisknutím tlačítka 7 přeskočíte zpět, stisknutím tlačítka 8 přeskočíte vpřed
+dictate/playback: přehrávání
+dictate/playback_mode: režim přehrávání
+dictate/record: záznam
+dictate/record_help: Stisknutím tlačítka 1 přepnete do režimu přehrávání, stisknutím tlačítka 8 soubor zkrátíte a začnete znovu
+dictate/record_mode: režim nahrávání
+dictate/truncating_audio: ořezávání zvuku
+digits/0: nula
+digits/10: deset
+digits/11: jedenáct
+digits/12: dvanáct
+digits/13: třináct
+digits/14: čtrnáct
+digits/15: patnáct
+digits/16: šestnáct
+digits/17: sedmnáct
+digits/18: osmnáct
+digits/19: devatenáct
+digits/1: jedna
+digits/1_E3: tisíc
+digits/1_E6: milión
+digits/1_E9: miliarda
+digits/1m: jeden
+digits/1sto: sto
+digits/1w: jedna
+digits/20: dvacet
+digits/2: dva
+digits/2-4_E3: tisíce
+digits/2-4_E6: milióny
+digits/2-4_E9: miliardy
+digits/2m: dva
+digits/2sta: dvěstě
+digits/2w: dvě
+digits/30: třicet
+digits/3: tři
+digits/40: čtyřicet
+digits/4: čtyři
+digits/50: padesát
+digits/5: pět
+digits/5_E3: tisíc
+digits/5_E6: miliónů
+digits/5_E9: miliard
+digits/60: šedesát
+digits/6: šest
+digits/70: sedmdesát
+digits/7: sedm
+digits/80: osmdesát
+digits/8: osm
+digits/90: devadesát
+digits/9: devět
+digits/a-m: DOPOLEDNE.
+digits/at: na
+digits/billion: miliarda
+digits/day-0: neděle
+digits/day-1: pondělí
+digits/day-2: úterý
+digits/day-3: středa
+digits/day-4: čtvrtek
+digits/day-5: pátek
+digits/day-6: sobota
+digits/dollars: korun
+digits/h-10: desátý
+digits/h-11: jedenáctý
+digits/h-12: dvanáctý
+digits/h-13: třináctý
+digits/h-14: čtrnáctý
+digits/h-15: patnáctý
+digits/h-16: šestnáctý
+digits/h-17: sedmnáctý
+digits/h-18: osmnáctý
+digits/h-19: devatenáctý
+digits/h-1: první
+digits/h-20: dvacátý
+digits/h-2: druhý
+digits/h-30: třicátý
+digits/h-3: třetí
+digits/h-40: čtyřicátý
+digits/h-4: čtvrtý
+digits/h-50: padesátý
+digits/h-5: pátý
+digits/h-60: šedesátý
+digits/h-6: šestý
+digits/h-70: sedmdesátý
+digits/h-7: sedmý
+digits/h-80: osmdesátý
+digits/h-8: osmý
+digits/h-90: devadesátý
+digits/h-9: devátý
+digits/h-billion: miliardtý
+digits/h-hundred: stý
+digits/h-million: miliontý
+digits/h-thousand: tisící
+digits/hundred: sto
+digits/million: milión
+digits/minus: mínus
+digits/mon-0: leden
+digits/mon-10: listopad
+digits/mon-11: prosinec
+digits/mon-1: únor
+digits/mon-2: březen
+digits/mon-3: duben
+digits/mon-4: květen
+digits/mon-5: červen
+digits/mon-6: červenec
+digits/mon-7: srpen
+digits/mon-8: září
+digits/mon-9: říjen
+digits/oclock: hodin
+digits/oh: Ó
+digits/p-m: ODPOLEDNE.
+digits/pound: křížek
+digits/set: set
+digits/sta: sta
+digits/star: hvězdička
+digits/thousand: tisíc
+digits/today: dnes
+digits/tomorrow: zítra
+digits/yesterday: včera
+dir-first: písmena křestního jména vaší osoby.
+dir-firstlast: ... písmena křestního jména nebo příjmení vaší osoby.
+dir-instr: Pokud je to osoba, kterou hledáte, stiskněte nyní 1, jinak prosím stiskněte hvězdičku.
+dir-intro-fn: Vítejte v telefonním seznamu. Zadejte prosím první tři písmena křestního jména vaší osoby pomocí tónové klávesnice. Použijte klávesu 7 pro Q a klávesu 9 pro Z.
+dir-intro: Vítejte v telefonním seznamu. Zadejte prosím první tři písmena příjmení vaší osoby pomocí tónové klávesnice. Použijte klávesu 7 pro Q a klávesu 9 pro Z.
+dir-last: ... písmena příjmení vaší osoby.
+dir-multi1: Stiskněte ...
+dir-multi2: ... pro ...
+dir-multi3: ... klapku ...
+dir-multi9: Stiskněte 9 pro další položky.
+dir-nomatch: Žádné položky v adresáři neodpovídají vašemu vyhledávání.
+dir-nomore: V adresáři již nejsou žádné kompatibilní položky.
+dir-pls-enter: Zadejte prosím první...
+dir-usingkeypad: ... pomocí tónové klávesnice. Pro Q použijte klávesu 7 a pro Z klávesu 9.
+dir-welcome: Vítejte v adresáři
+disabled: Zakázáno.
+do-not-disturb: Nerušit.
+enabled: Povoleno.
+enter-num-blacklist: Zadejte prosím číslo, které chcete zařadit na černou listinu.
+entr-num-rmv-blklist: Zadejte prosím číslo, které chcete odstranit z černé listiny.
+extension: Linka.
+feature-not-avail-line: Tato funkce není na této lince k dispozici.
+followme/call-from: příchozí hovor od
+followme/no-recording: máte příchozí hovor
+followme/options: Stiskněte 1 pro přijetí hovoru nebo 2 pro jeho odmítnutí
+followme/pls-hold-while-try: Prosím, vydržte, než se pokusím najít osobu, které voláte
+followme/sorry: Je mi líto, ale nepodařilo se mi najít osobu, které voláte.
+followme/status: Volaná osoba není u svého stolu; pokusím se ji pro vás najít.
+for: Pro.
+from-unknown-caller: Od neznámého volajícího.
+goodbye: Na shledanou!
+hello-world: Ahoj světe.
+hello: Ahoj.
+hours: hodiny
+if-correct-press: Pokud je to správně, stiskněte...
+im-sorry: Je mi to líto.
+info-about-last-call: Informace o vašem posledním hovoru.
+invalid: Je mi líto, toto není platná linka. Zkuste to prosím znovu.
+is-in-use: Je používán.
+is-set-to: Je nastaveno na.
+is: Je.
+letters/a: a
+letters/ascii123: levá složená závorka
+letters/ascii124: svislá čára
+letters/ascii125: pravá složená závorka
+letters/ascii126: Vlnovka
+letters/ascii34: dvojité uvozovky
+letters/ascii36: znak dolaru
+letters/ascii37: procento
+letters/ascii38: ampersand neboli et
+letters/ascii39: Apostrof
+letters/ascii40: levá kulatá závorka
+letters/ascii41: pravá kulatá závorka
+letters/ascii42: hvězdička
+letters/ascii44: čárka
+letters/ascii58: dvojtečka
+letters/ascii59: středník
+letters/ascii60: menší
+letters/ascii62: větší
+letters/ascii63: otazník
+letters/ascii91: levá hranatá závorka
+letters/ascii92: obrácené lomítko
+letters/ascii93: pravá hranatá závorka
+letters/ascii94: stříška
+letters/ascii95: dolní pomlčka
+letters/ascii96: zpětná čárka
+letters/asterisk: hvězdička
+letters/at: zavináč
+letters/b: b
+letters/c: c
+letters/d: d
+letters/dash: pomlčka
+letters/dollar: dolar
+letters/dot: tečka
+letters/e: e
+letters/equals: rovná se
+letters/exclaimation-point: vykřičník
+letters/f: f
+letters/g: g
+letters/h: h
+letters/i: i
+letters/j: j
+letters/k: k
+letters/l: l
+letters/m: m
+letters/n: n
+letters/o: o
+letters/p: p
+letters/plus: plus
+letters/q: q
+letters/r: r
+letters/s: s
+letters/slash: lomeno
+letters/space: mezera
+letters/t: t
+letters/u: u
+letters/v: v
+letters/w: w
+letters/x: x
+letters/y: y
+letters/z: z
+letters/zed: zed
+location: Umístění.
+lowercase: malá písmena
+minute: minuta
+minutes: minut
+num-was-successfully: Číslo bylo úspěšně zadáno...
+number-not-answering: Číslo nikdo nezvedá.
+number: Číslo.
+one-moment-please: Chvíli strpení, prosím.
+pbx-invalid: Je mi líto, toto není platná linka. Zkuste to prosím znovu.
+pbx-invalidpark: Je mi líto, na této pobočce není žádný hovor. Zkuste to prosím znovu.
+pbx-parkingfailed: Pokus o parkování se nezdařil.
+pbx-transfer: Převod.
+phonetic/9_p: devět
+phonetic/a_p: Adam
+phonetic/b_p: Božena
+phonetic/c_p: Cyril
+phonetic/d_p: David
+phonetic/e_p: Emil
+phonetic/f_p: František
+phonetic/g_p: Gustav
+phonetic/h_p: Helena
+phonetic/i_p: Ivan
+phonetic/j_p: Josef
+phonetic/k_p: Karel
+phonetic/l_p: Ludvík
+phonetic/m_p: Marie
+phonetic/n_p: Norbert
+phonetic/o_p: Oto
+phonetic/p_p: Petr
+phonetic/q_p: Quido
+phonetic/r_p: Rudolf
+phonetic/s_p: Svatopluk
+phonetic/t_p: Tomáš
+phonetic/u_p: Urban
+phonetic/v_p: Václav
+phonetic/w_p: Dvojité V	
+phonetic/x_p: Xaver
+phonetic/y_p: Ypsilon
+phonetic/z_p: Zuzana
+please-try-again: Zkuste to prosím znovu.
+please-try-call-later: Zkuste prosím zavolat znovu později.
+pls-hold-while-try: Prosím, vyčkejte, než se s vámi spojíme.
+pls-try-call-later: Zkuste prosím zavolat znovu později.
+pm-invalid-option: Tato možnost je neplatná. Zkuste to prosím znovu.
+priv-callee-options: Volte 1, pokud chcete, aby vás tento volající kontaktoval přímo nyní i v budoucnu. Volte 2, pokud chcete volajícího přesměrovat do hlasové schránky nyní i navždy. Volte 3, chcete-li volajícího přesměrovat do mučících menu, nyní i navždy. Volte 4, chcete-li volajícího přesměrovat do zdvořilého menu „nevolat“, nyní i navždy. Volte 5, chcete-li, aby se k vám tento volající v budoucnu dostal přímo, ale pouze tentokrát, přesměrujte ho do hlasové schránky.
+priv-callpending: Čeká na mě volající, který se představuje jako:
+priv-introsaved: Děkuji. Prosím, počkejte, než se vás pokusím spojit s vaší skupinou!
+priv-recordintro: Po zaznění tónu prosím řekněte své jméno.
+privacy-incorrect: Je mi líto, toto číslo není platné.
+privacy-prompt: Zadejte prosím své telefonní číslo, počínaje směrovým číslem oblasti.
+privacy-thankyou: Děkuju.
+privacy-to-blacklist-last-caller: Poslední volající byl...
+privacy-unident: Osoba, kterou se snažíte dovolat, nepřijímá neidentifikované hovory.
+queue-callswaiting: Čekání na rozhovor se zástupcem
+queue-holdtime: Odhadovaná doba čekání je aktuálně
+queue-less-than: méně než
+queue-minute: minuta
+queue-minutes: minut
+queue-periodic-announce: Všichni naši zástupci jsou momentálně zaneprázdněni. Zůstaňte prosím na lince a váš hovor přijme nejbližší dostupný zástupce.
+queue-quantity1: V současné době existuje více než...
+queue-quantity2: ... volajících čekající na rozhovor se zástupcem.
+queue-reporthold: Doba čekání
+queue-seconds: Sekundy
+queue-thankyou: Děkuji za vaši trpělivost
+queue-thereare: Aktuálně máte číslo volajícího
+queue-youarenext: Váš hovor je nyní první v pořadí a bude přijat dalším dostupným zástupcem.
+removed: Odstraněno.
+screen-callee-options: Máte tyto možnosti: Volejte 1, pokud chcete okamžitě připojit příchozí hovor. Volejte 2, pokud chcete volajícího přesměrovat do hlasové schránky. Volejte 3, chcete-li volajícího přesměrovat do menu pro mučení. Volejte 4, chcete-li volajícího přesměrovat do zdvořilého menu „nevolat“.
+second: vteřina
+seconds: vteřin
+silence/10: (10 seconds of silence)
+silence/1: (1 second of silence)
+silence/2: (2 seconds of silence)
+silence/3: (3 seconds of silence)
+silence/4: (4 seconds of silence)
+silence/5: (5 seconds of silence)
+silence/6: (6 seconds of silence)
+silence/7: (7 seconds of silence)
+silence/8: (8 seconds of silence)
+silence/9: (9 seconds of silence)
+simul-call-limit-reached: Dosažen limit současných hovorů.
+something-terribly-wrong: Něco je strašně špatně!
+sorry-youre-having-problems: Je mi líto, že máš problémy.
+sorry: Je nám to líto.
+speed-dial-empty: Položka rychlé volby, ke které jste přistupovali, je prázdná.
+speed-dial: Rychlá volba.
+spy-agent: zástupce
+spy-console: Konzole
+spy-dahdi: DAHDI
+spy-h323: H.323
+spy-iax2: IAX (note: does not say "2")
+spy-iax: IAX
+spy-jingle: Jingle
+spy-local: Lokál
+spy-mgcp: MGCP
+spy-misdn: M I S D N
+spy-mobile: Mobilní telefon s Bluetooth
+spy-nbs: N B S
+spy-sip: SIP
+spy-skinny: Skinny
+spy-unistim: Unistim
+spy-usbradio: USB Radio
+spy-zap: Zap
+ss-noservice: Volané číslo není v provozu. Zkontrolujte prosím číslo a zkuste to znovu.
+telephone-number: Telefonní číslo.
+time: Čas.
+to-call-this-number: Volat na toto číslo.
+to-extension: Na linku.
+to-listen-to-it: Abych si to poslechl.
+to-rerecord-it: Abych to znovu nahrál.
+transfer: Prosím, počkejte, než vyzkouším tuto linku.
+tt-allbusy: Všichni zástupci domácnosti v současné době pomáhají ostatním telemarketingovým pracovníkům. Prosím, vyčkejte a váš hovor bude zodpovězen v pořadí, v jakém byl přijat.
+tt-monkeys: [sound of monkeys screaming]
+tt-monkeysintro: Byly odneseny opicemi
+tt-somethingwrong: Něco je strašně špatně
+tt-weasels: Lasice nám sežraly telefonní systém
+unidentified-no-callback: Neidentifikované nebo zatajené, a proto nelze odvolat zpět.
+uppercase: velká písmena
+vm-advopts: stiskněte 3 pro pokročilé možnosti
+vm-and: a
+vm-calldiffnum: stiskněte 2 pro zadání jiného čísla
+vm-changeto: Změnit složku?
+vm-Cust1: složka 5
+vm-Cust2: složka 6
+vm-Cust3: složka 7
+vm-Cust4: složka 8
+vm-Cust5: složka 9
+vm-delete: Stisknutím tlačítka 7 tuto zprávu smažete.
+vm-deleted: Zpráva smazána.
+vm-dialout: prosím počkejte, než spojím váš hovor
+vm-duration: Tato zpráva trvá...
+vm-enter-num-to-call: zadejte prosím číslo, na které chcete volat
+vm-extension: klapka
+vm-Family: rodina
+vm-first: první
+vm-for: pro
+vm-forward-multiple: Stisknutím tlačítka 1 odešlete tuto zprávu nebo tlačítka 2 přidáte dalšího příjemce.
+vm-forward: Stiskněte 1 pro zadání klapky, stiskněte 2 pro použití telefonního seznamu
+vm-forwardoptions: Stisknutím tlačítka 1 přidáte zprávu na začátek nebo tlačítka 2 ji přepošlete bez přidání na začátek.
+vm-Friends: přátelé
+vm-from-extension: zpráva z pobočky
+vm-from-phonenumber: zpráva z telefonního čísla
+vm-from: ze
+vm-goodbye: Na shledanou
+vm-helpexit: Stiskněte hvězdičku pro nápovědu nebo křížek pro ukončení.
+vm-INBOX: nové
+vm-incorrect-mailbox: Nesprávné přihlášení. Poštovní schránka?
+vm-incorrect: Nesprávné přihlášení.
+vm-instructions: Chcete-li si prohlédnout své zprávy, stiskněte nyní 1. Hlasovou schránku můžete kdykoli ukončit stisknutím klávesy s křížkem.
+vm-intro: Zanechte prosím zprávu po zaznění tónu. Po dokončení zavěste nebo stiskněte křížek.
+vm-invalid-password: Toto heslo nesplňuje minimální požadavky pro tuto poštovní schránku. Zkuste to prosím znovu.
+vm-invalidpassword: Toto není platné heslo. Zkuste to prosím znovu.
+vm-isonphone: je na telefonu
+vm-isunavail: není k dispozici
+vm-last: poslední
+vm-leavemsg:  Stiskněte 5 pro zanechání zprávy
+vm-login: Pošta komiků. Schránka?
+vm-mailboxfull: Je mi líto, ale uživatelova e-mailová schránka nemůže přijmout další zprávy
+vm-marked-nonurgent: Stav „Naléhavé“ odstraněn.
+vm-marked-urgent: Zpráva označena jako naléhavá.
+vm-message: zpráva
+vm-messages: zprávy
+vm-minutes: minuty
+vm-mismatch: Hesla, která jste zadali a znovu zadali, se neshodují. Zkuste to prosím znovu.
+vm-msgforwarded: Vaše zpráva byla úspěšně přeposlána.
+vm-msginstruct: Chcete-li si poslechnout další zprávu, stiskněte 6, chcete-li tuto zprávu zopakovat, stiskněte 5, chcete-li si poslechnout předchozí zprávu, stiskněte 4, chcete-li tuto zprávu smazat nebo obnovit, stiskněte nulu a pro ukončení hlasové schránky stiskněte křížek.
+vm-msgsaved: Vaše zpráva byla uložena.
+vm-newpassword: Zadejte prosím své nové heslo a poté klávesu s křížkem.
+vm-newuser: Vítejte v Comedian Mail. Nejprve vás provedu krátkým procesem nastavení.
+vm-next: Stisknutím tlačítka 6 přehrajete další zprávu.
+vm-no: žádný
+vm-nobodyavail: Momentálně není nikdo k dispozici, aby přijal váš hovor
+vm-nobox: Na tuto zprávu nemůžete odpovědět, protože odesílatel nemá poštovní schránku
+vm-nomore: Žádné další zprávy.
+vm-nonumber: Obávám se, že nevím, kdo tuto zprávu poslal
+vm-num-i-have: číslo, které mám, je
+vm-Old: staré
+vm-onefor-full: Stiskněte jedna pro poslech...
+vm-onefor: Stiskněte 1 pro
+vm-options: Stiskněte 1 pro nahrání zprávy o nedostupnosti, stiskněte 2 pro nahrání zprávy o obsazenosti, stiskněte 3 pro nahrání svého jména, stiskněte 4 pro nahrání dočasného pozdravu, stiskněte 5 pro změnu hesla a stiskněte hvězdičku pro návrat do hlavní nabídky.
+vm-opts-full: Stisknutím tlačítka 2 zobrazíte zprávy uložené v jiných složkách. Stisknutím tlačítka 3 nahrajete zprávu pro jinou schránku. Stisknutím tlačítka 0 zobrazíte pozdravy a správu hesel.
+vm-opts: Stisknutím tlačítka 2 přepnete složku, stisknutím tlačítka 3 zobrazíte pokročilé možnosti a stisknutím tlačítka nula zobrazíte možnosti schránky.
+vm-passchanged: Vaše hesla byla změněna.
+vm-password: heslo
+vm-pls-try-again: zkuste to prosím znovu
+vm-press: Stiskněte
+vm-prev: Stiskněte 4 pro předchozí zprávu
+vm-reachoper: stiskněte 0 pro spojení s operátorem
+vm-rec-busy: Po zaznění tónu řekněte obsazenou zprávu a poté stiskněte křížek.
+vm-rec-name: Po zaznění tónu řekněte své jméno a poté stiskněte křížek.
+vm-rec-temp: Po zaznění tónu řekněte dočasnou zprávu a poté stiskněte křížek.
+vm-rec-unv: Po zaznění tónu řekněte zprávu o nedostupnosti a poté stiskněte křížek.
+vm-received: přijato
+vm-record-prepend: Po zaznění tónu prosím nahrajte úvod k přeposlané zprávě. Po dokončení stiskněte křížek.
+vm-reenterpassword: Please reZadejte prosím znovu své heslo a poté stiskněte křížek.
+vm-repeat: Stisknutím tlačítka 5 zopakujete aktuální zprávu.
+vm-review-nonurgent: Stisknutím tlačítka 4 odeberete stav naléhavosti této zprávy.
+vm-review-urgent: Stisknutím tlačítka 4 označíte tuto zprávu jako naléhavou.
+vm-review: Stiskněte 1 pro přijetí nahrávky, stiskněte 2 pro její poslech, stiskněte 3 pro opětovné nahrání zprávy.
+vm-saved: uloženo
+vm-savedto: uloženo do
+vm-savefolder: Do které složky mám zprávu uložit?
+vm-savemessage: nebo 9 pro uložení této zprávy
+vm-saveoper: Stiskněte 1 pro potvrzení nahrávky, jinak prosím držte dál
+vm-sorry: Omlouvám se, že jsem vaši odpověď nepochopil.
+vm-star-cancel: stiskněte hvězdičku pro zrušení
+vm-starmain: stiskněte hvězdičku pro návrat do hlavní nabídky
+vm-tempgreetactive: Váš dočasný pozdrav je momentálně aktivní.
+vm-tempgreeting2: Stiskněte 1 pro nahrání dočasného pozdravu nebo stiskněte 2 pro jeho smazání.
+vm-tempgreeting: stiskněte 1 pro nahrání dočasného pozdravu
+vm-tempremoved: Váš dočasný pozdrav byl odstraněn.
+vm-then-pound: poté stiskněte hvězdičku
+vm-theperson: Osoba na pobočce
+vm-tmpexists: Existuje dočasný pozdrav, který přepíše vaše standardní pozdravy.
+vm-tocallback: Stiskněte 2 pro zavolání osobě, která tuto zprávu odeslala
+vm-tocallnum: stiskněte 1 pro volání na toto číslo
+vm-tocancel: nebo hvězdičku pro zrušení.
+vm-tocancelmsg: stiskněte hvězdičku pro zrušení této zprávy
+vm-toenternumber: stiskněte 1 pro zadání čísla
+vm-toforward: Stisknutím klávesy 8 přepošlete zprávu jinému uživateli.
+vm-tohearenv: stiskněte 3 pro poslech obálky zprávy
+vm-tomakecall: stiskněte 4 pro uskutečnění odchozího hovoru
+vm-tooshort: Vaše zpráva je příliš krátká
+vm-toreply: stiskněte 1 pro odeslání odpovědi
+vm-torerecord: stiskněte 3 pro opětovné nahrání zprávy
+vm-undelete: Stiskněte 7 pro obnovení smazané zprávy
+vm-undeleted: Zpráva obnovena.
+vm-unknown-caller: od neznámého volajícího
+vm-Urgent: naléhavý
+vm-whichbox: Chcete-li zanechat zprávu, zadejte prosím číslo poštovní schránky.
+vm-Work: práce
+vm-youhave: máš
+with: S.
+you-entered: Vstoupil jsi.
+your: Vaše.
