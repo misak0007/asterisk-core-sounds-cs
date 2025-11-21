@@ -4,8 +4,7 @@
 
 sourc=sound-raw-ladislav
 dest=asterisk-core-sounds-cs-ladislav
-
-if [ -d ${dest} ];then rm -rf ${dest};fi
+verze=v0.1.0
 
 function convert_wav_wav {
 	if [ ! -d $2 ];then mkdir -p $2;fi
@@ -90,7 +89,19 @@ function convert_wav {
 	done
 }
 
+function make_release {
+	if [ -f ${dest}-${verze}.zip ];then rm ${dest}-${verze}.zip;fi
+	cd ${dest}
+	zip -r ../${dest}-${verze}.zip ./
+	cd ..
+}
+
+function make_clean {
+	rm ${dest}-${verze}.zip
+}
+
 function convert {
+	if [ -d ${dest} ];then rm -rf ${dest};fi
 	convert_wav 
 	convert_wav /dictate
 	convert_wav /digits
@@ -100,4 +111,14 @@ function convert {
 	convert_wav /silence
 }
 
-convert
+if [ "$1" == "covert" ];then
+	convert
+elif [ "$1" == "release" ];then
+	make_release
+elif [ "$1" == "all" ];then
+	convert
+	make_release
+elif [ "$1" == "clean" ];then
+	make_clean
+fi	
+
