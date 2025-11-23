@@ -1,6 +1,10 @@
 #!/bin/bash
 
 # need software: opus-tools sox asterisk-codec_opus asterisk-g729 asterisk
+# https://downloads.digium.com/pub/telephony/codec_siren14/asterisk-23.0/x86-64/codec_siren14-23.0-current-x86_64.tar.gz
+# https://downloads.digium.com/pub/telephony/codec_siren7/asterisk-23.0/x86-64/codec_siren7-23.0-current-x86_64.tar.gz
+# https://downloads.digium.com/pub/telephony/codec_silk/asterisk-23.0/x86-64/codec_silk-23.0-current-x86_64.tar.gz
+# sudo chown -R asterisk:asterisk /var/lib/asterisk/sounds/
 
 sourc=sound-raw-ladislav
 dest=asterisk-core-sounds-cs
@@ -32,7 +36,6 @@ function convert_wav_gsm {
 	sox -V $1 -r 8000 -c 1 -t gsm $2/$3.gsm
 }
 
-sudo chown -R asterisk:asterisk /var/lib/asterisk/sounds/
 function convert_wav_g729 {
 	if [ ! -d $2 ];then mkdir -p $2;fi
 	sudo sox $1 -e signed-integer -b 16 -c 1 -r 8k -t raw /var/lib/asterisk/sounds/$3.slin
@@ -107,12 +110,10 @@ function make_clean {
 function convert {
 	if [ -d ${dest} ];then rm -rf ${dest};fi
 	convert_wav 
-	convert_wav /dictate
-	convert_wav /digits
-	convert_wav /followme
-	convert_wav /letters
-	convert_wav /phonetic
-	convert_wav /silence
+	for sbdir in dictate digits followme letters phonetic silence; do
+		convert_wav /${sbdir}
+	done
+	dictate digits followme letters phonetic silence
 }
 
 if [ "$1" == "covert" ];then
