@@ -9,7 +9,7 @@
 sourc=sound-raw-ladislav
 dest=asterisk-core-sounds-cs
 voice=ladislav
-verze=v0.1.0
+verze=v0.1.1
 
 function convert_wav_wav {
 	if [ ! -d $2 ];then mkdir -p $2;fi
@@ -93,27 +93,34 @@ function make_release_old {
 	cd ..
 }
 
+function make_clean {
+	rm *.zip
+	rm *.tar.gz
+}
+
 function make_release {
+	make_clean
 	for fmt in alaw g722 g729 gsm opus sln16 ulaw wav siren7 siren14; do
 		if [ -f ${dest}-${fmt}-${voice}-${verze}.zip ];then rm ${dest}-${fmt}-${voice}-${verze}.zip;fi
-		tar -czvf ${dest}-${fmt}-${voice}-${verze}.tar.gz ${dest}-${fmt}/
 		cd ${dest}-${fmt}
-		zip -r ../${dest}-${fmt}-${voice}-${verze}.zip ./
+		tar -czvf ../${dest}-${fmt}-${voice}-${verze}.tar.gz *
+#		zip -r ../${dest}-${fmt}-${voice}-${verze}.zip ./
 		cd ..
 	done
 }
 
-function make_clean {
-	rm ${dest}-${verze}.zip
+function make_clean_dir {
+	for fmt in alaw g722 g729 gsm opus sln16 ulaw wav siren7 siren14; do
+	if [ -d ${dest}-${fmt} ];then rm -rf ${dest}-${fmt};fi
+	done
 }
 
 function convert {
-	if [ -d ${dest} ];then rm -rf ${dest};fi
+	make_clean_dir
 	convert_wav 
 	for sbdir in dictate digits followme letters phonetic silence; do
 		convert_wav /${sbdir}
 	done
-	dictate digits followme letters phonetic silence
 }
 
 if [ "$1" == "covert" ];then

@@ -1,3 +1,13 @@
 *.zip*
-asterisk-core-sounds-cs-ladislav/
+*.tar.gz*
+asterisk-core-sounds-cs-alaw/
+asterisk-core-sounds-cs-gsm/
+asterisk-core-sounds-cs-g722/
+asterisk-core-sounds-cs-g729/
+asterisk-core-sounds-cs-opus/
+asterisk-core-sounds-cs-siren14/
+asterisk-core-sounds-cs-siren7/
+asterisk-core-sounds-cs-sln16/
+asterisk-core-sounds-cs-ulaw/
+asterisk-core-sounds-cs-wav/
 
