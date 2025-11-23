@@ -3,7 +3,8 @@
 # need software: opus-tools sox asterisk-codec_opus asterisk-g729 asterisk
 
 sourc=sound-raw-ladislav
-dest=asterisk-core-sounds-cs-ladislav
+dest=asterisk-core-sounds-cs
+voice=ladislav
 verze=v0.1.0
 
 function convert_wav_wav {
@@ -75,25 +76,28 @@ function convert_wav {
 	for file in ${sourc}$1/*.wav; do
 		if [ -f $file ];then
 			basen=$(basename "$file" | cut -d"." -f1)
-			convert_wav_wav "$file" "${dest}$1" "${basen}"
-			convert_wav_g722 "$file" "${dest}$1" "${basen}"
-			convert_wav_ulaw "$file" "${dest}$1" "${basen}"
-			convert_wav_alaw "$file" "${dest}$1" "${basen}"
-			convert_wav_gsm "$file" "${dest}$1" "${basen}"
-			convert_wav_g729 "$file" "${dest}$1" "${basen}"
-			convert_wav_siren14 "$file" "${dest}$1" "${basen}"
-			convert_wav_siren7 "$file" "${dest}$1" "${basen}"
-			convert_wav_opus "$file" "${dest}$1" "${basen}"
-			convert_wav_sln16 "$file" "${dest}$1" "${basen}"
+			for fmt in alaw g722 g729 gsm opus sln16 ulaw wav siren7 siren14; do
+				convert_wav_${fmt} "$file" "${dest}-${fmt}/$1" "${basen}"
+			done
 		fi
 	done
 }
 
-function make_release {
+function make_release_old {
 	if [ -f ${dest}-${verze}.zip ];then rm ${dest}-${verze}.zip;fi
 	cd ${dest}
 	zip -r ../${dest}-${verze}.zip ./
 	cd ..
+}
+
+function make_release {
+	for fmt in alaw g722 g729 gsm opus sln16 ulaw wav siren7 siren14; do
+		if [ -f ${dest}-${fmt}-${voice}-${verze}.zip ];then rm ${dest}-${fmt}-${voice}-${verze}.zip;fi
+		tar -czvf ${dest}-${fmt}-${voice}-${verze}.tar.gz ${dest}-${fmt}/
+		cd ${dest}-${fmt}
+		zip -r ../${dest}-${fmt}-${voice}-${verze}.zip ./
+		cd ..
+	done
 }
 
 function make_clean {
